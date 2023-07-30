@@ -14,7 +14,7 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-main style="background: url('/avocadobg.jpg') no-repeat center/cover;">
+    <v-main style="background: url('/avocado/avocadobg.jpg') no-repeat center/cover;">
       <!-- Component 是目前頁面該顯示的元件 -->
       <router-view v-slot="{ Component }">
         <!-- keep-alive 讓路由切換時不會銷毀元件，用 include 指定只有 Home 不會被銷毀 -->
